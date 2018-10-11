@@ -1,0 +1,156 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+  }
+  
+  .container{
+    padding: 20px;
+    overflow: hidden;
+    margin-left: 250px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-gap: 30px;
+    align-items: stretch;
+  }
+  
+  /*body{
+    background: #077AAB;
+  }*/
+  
+  .card {
+    width: 300px;
+    position: relative;
+  
+    background: #ffffff;
+  
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #000000;
+  }
+  
+  .card-header {
+    height: 170px;
+    overflow: hidden;
+  }
+  
+  .card-header img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card-header .cover {
+    background: rgba(9, 173, 110, 0.702);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 29%;
+  }
+  
+  .card-header .menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  
+  .card-header .menu ion-icon {
+    font-size: 20px;
+  }
+  
+  .card-header .menu ul {
+    background: rgba(22, 172, 114, 0.702);
+    padding: 6px 0;
+    margin: 0 14px;
+    display: none;
+  }
+  
+  .card-header .menu li {
+    float: left;
+    width: 30px;
+    text-align: center;
+  }
+  
+  .card-header .menu:hover > ul {
+    display: block;
+  }
+  
+  .card-header .name {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    opacity: 0.9;
+  }
+  
+  .card-header .last {
+    display: block;
+    font-size: 30px;
+  }
+  
+  .card-header .first {
+    font-size: 40px;
+    display: block;
+  }
+  
+  .card-container {
+    padding: 25px;
+    overflow: hidden;
+  }
+  
+  .left-section {
+    width: 170px;
+    overflow: hidden;
+    float: left;
+  }
+  
+  .left-section h3 {
+    color: #051721;
+  }
+  
+  .left-section p {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  
+  .left-section .followbtn {
+    width: 100px;
+    height: 25px;
+    background: rgba(22, 172, 114, 0.702);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 8px 0
+    transition: 0.2s all;
+  }
+  
+  .left-section .followbtn:hover {
+    background: rgba(2, 248, 154, 0.702);
+  }
+  
+  .right-section {
+    overflow: hidden;
+    float: right;
+    text-align: right;
+  }
+  .item {
+    margin: 6px 0;
+  }
+  .num {
+    display: block;
+    font-size: 25px;
+  }
+  .word {
+    font-size: 15px;
+  }
+  
